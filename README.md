@@ -1,5 +1,5 @@
 # Leetcode
 Leetcode Problem Solutions
 
--Easy
--Medium
+- Easy
+- Medium
