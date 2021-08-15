@@ -8,7 +8,7 @@
 <p><strong>Note:</strong></p>
 
 <ul>
-	<li>Your returned answers (both index1 and index2) are not zero-based.</li>
+	<li>Your returned answers (both index1 and index2) are 1-indexed.</li>
 	<li>You may assume that each input would have <em>exactly</em> one solution and you may not use the <em>same</em> element twice.</li>
 </ul>
 
@@ -41,6 +41,6 @@
 <ul>
 	<li><code>2 &lt;= nums.length &lt;= 3 * 10<sup>4</sup></code></li>
 	<li><code>-1000 &lt;= nums[i] &lt;= 1000</code></li>
-	<li><code>nums</code>&nbsp;is sorted in <strong>increasing order</strong>.</li>
+	<li><code>nums</code>&nbsp;is sorted in <strong>non-decreasing order</strong>.</li>
 	<li><code>-1000 &lt;= target &lt;= 1000</code></li>
 </ul>
