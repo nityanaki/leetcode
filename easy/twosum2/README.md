@@ -44,3 +44,5 @@
 	<li><code>nums</code>&nbsp;is sorted in <strong>non-decreasing order</strong>.</li>
 	<li><code>-1000 &lt;= target &lt;= 1000</code></li>
 </ul>
+
+Solution: [solution.java](https://github.com/nityanaki/leetcode/blob/main/easy/twosum2/solution.java)
