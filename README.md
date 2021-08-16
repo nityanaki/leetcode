@@ -1,5 +1,5 @@
 # Leetcode
 Leetcode Problem Solutions
 
-- Easy
+- [Easy](https://github.com/nityanaki/leetcode/tree/main/easy)
 - Medium
