@@ -34,4 +34,4 @@ class Solution {
 // 2: 8 -> 7 (stop)
 // if 7 doesn't exist, then we reach 4 (or a number smaller than 7) and pause there
 // keep going until the pointers reach each other
-// sorting will be O(NlogN) complexity + O(N) for iterating through array, making the overall complexity O(NlogN + N) which is just O(NlogN)
+// O(N) complexity
