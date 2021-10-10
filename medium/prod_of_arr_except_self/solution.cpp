@@ -4,6 +4,11 @@ public:
         vector<int> out;
         //for size 2:
         //just reverse elements
+        
+        //edge cases?
+        //[a, b]
+        //rProds: b
+        // out should be [b, a]
         if (nums.size() == 2) {
             out.push_back(nums[1]);
             out.push_back(nums[0]);
@@ -36,11 +41,6 @@ public:
             int prod = lProd * r;
             out.push_back(prod);
         }
-        
-        //edge cases?
-        //[a, b]
-        //rProds: b
-        // out should be [b, a]
         
         return out;
     }
