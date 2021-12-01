@@ -1,19 +1,15 @@
 class Solution {
 public:
     int numIslands(vector<vector<char>>& grid) {
-        // make a duplicate matrix: visited (same size as grid)
-        //vector<vector<bool> > visited;
         // use a queue/deque to explore all the locations of the grid
-        //visited.resize(grid.size(), vector<bool>(grid[0].size(), false));
-        // iterate through rows and columns of vector
         queue<std::pair<size_t, size_t> > locations;
         // keep count of number of islands
         uint32_t num_islands = 0;
+        // iterate through rows and columns of vector
         for (size_t r = 0; r < grid.size(); ++r) {
             for (size_t c = 0; c < grid[0].size(); ++c) {
                 //skip over if the position is 0
                 if (grid[r][c] == '0') continue;
-                //if (visited[r][c] == true) continue;
                 //if it's = 1:
                 // add this position to queue, mark as visited
                 grid[r][c] = '0';
