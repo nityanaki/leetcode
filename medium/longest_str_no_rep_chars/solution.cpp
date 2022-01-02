@@ -12,6 +12,7 @@ public:
         int maxlen = 0;
         
         int start = 0;
+        //don't think the end pointer was necessary (could use i instead)
         int end = 1;
         
         // loop through the inputted string
